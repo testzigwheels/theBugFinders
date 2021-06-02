@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-05-31T05:42:02Z" name="Default suite" finished-at="2021-05-31T05:42:22Z" duration-ms="19951">
+    <groups>
+      <group name="Regression Test">
+        <method signature="UsedCarsTest.verifyChennai()[pri:0, instance:com.bikes.testCases.UsedCarsTest@3cce5371]" name="verifyChennai" class="com.bikes.testCases.UsedCarsTest"/>
+      </group> <!-- Regression Test -->
+      <group name="Smoke Test">
+        <method signature="UsedCarsTest.selectChennai()[pri:0, instance:com.bikes.testCases.UsedCarsTest@3cce5371]" name="selectChennai" class="com.bikes.testCases.UsedCarsTest"/>
+        <method signature="UsedCarsTest.getPopularModels()[pri:0, instance:com.bikes.testCases.UsedCarsTest@3cce5371]" name="getPopularModels" class="com.bikes.testCases.UsedCarsTest"/>
+      </group> <!-- Smoke Test -->
+    </groups>
+    <test started-at="2021-05-31T05:42:02Z" name="Default test" finished-at="2021-05-31T05:42:22Z" duration-ms="19951">
+      <class name="com.bikes.testCases.UsedCarsTest">
+        <test-method signature="selectChennai()[pri:0, instance:com.bikes.testCases.UsedCarsTest@3cce5371]" started-at="2021-05-31T05:42:02Z" name="selectChennai" finished-at="2021-05-31T05:42:19Z" duration-ms="17089" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectChennai -->
+        <test-method signature="getPopularModels()[pri:0, instance:com.bikes.testCases.UsedCarsTest@3cce5371]" started-at="2021-05-31T05:42:19Z" name="getPopularModels" finished-at="2021-05-31T05:42:21Z" depends-on-methods="com.bikes.testCases.UsedCarsTest.selectChennai" duration-ms="1408" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPopularModels -->
+        <test-method signature="verifyChennai()[pri:0, instance:com.bikes.testCases.UsedCarsTest@3cce5371]" started-at="2021-05-31T05:42:21Z" name="verifyChennai" finished-at="2021-05-31T05:42:21Z" depends-on-methods="com.bikes.testCases.UsedCarsTest.getPopularModels" duration-ms="159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyChennai -->
+        <test-method is-config="true" signature="browserQuit()[pri:0, instance:com.bikes.testCases.UsedCarsTest@3cce5371]" started-at="2021-05-31T05:42:21Z" name="browserQuit" finished-at="2021-05-31T05:42:22Z" duration-ms="1256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserQuit -->
+      </class> <!-- com.bikes.testCases.UsedCarsTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

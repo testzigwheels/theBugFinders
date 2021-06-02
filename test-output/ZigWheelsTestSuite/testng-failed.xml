@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [ZigWheelsTestSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <groups>
+      <run>
+        <include name="Smoke Test"/>
+        <include name="Regression Test"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.bikes.testCases.BikeDetailsTest">
+        <methods>
+          <include name="clickViewMore"/>
+          <include name="verifyHondaPage"/>
+          <include name="selectHondaBikes"/>
+          <include name="clickUpComingBikes"/>
+          <include name="displayUpcomingBikes"/>
+          <include name="quitBrowser"/>
+        </methods>
+      </class> <!-- com.bikes.testCases.BikeDetailsTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [ZigWheelsTestSuite] -->
