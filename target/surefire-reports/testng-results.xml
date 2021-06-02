@@ -2,39 +2,39 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-06-01T13:19:30Z" name="Command line suite" finished-at="2021-06-01T13:21:45Z" duration-ms="135006">
+  <suite started-at="2021-06-02T08:52:27Z" name="Command line suite" finished-at="2021-06-02T08:54:25Z" duration-ms="117720">
     <groups>
       <group name="Regression Test">
-        <method signature="BikeDetailsTest.verifyHondaPage()[pri:0, instance:com.bikes.testCases.BikeDetailsTest@2bbf180e]" name="verifyHondaPage" class="com.bikes.testCases.BikeDetailsTest"/>
-        <method signature="UsedCarsTest.verifyChennai()[pri:0, instance:com.bikes.testCases.UsedCarsTest@56de5251]" name="verifyChennai" class="com.bikes.testCases.UsedCarsTest"/>
+        <method signature="BikeDetailsTest.verifyHondaPage()[pri:0, instance:com.bikes.testCases.BikeDetailsTest@56de5251]" name="verifyHondaPage" class="com.bikes.testCases.BikeDetailsTest"/>
+        <method signature="UsedCarsTest.verifyChennai()[pri:0, instance:com.bikes.testCases.UsedCarsTest@12b0404f]" name="verifyChennai" class="com.bikes.testCases.UsedCarsTest"/>
       </group> <!-- Regression Test -->
       <group name="Smoke Test">
-        <method signature="BikeDetailsTest.clickUpComingBikes()[pri:1, instance:com.bikes.testCases.BikeDetailsTest@2bbf180e]" name="clickUpComingBikes" class="com.bikes.testCases.BikeDetailsTest"/>
-        <method signature="BikeDetailsTest.clickViewMore()[pri:3, instance:com.bikes.testCases.BikeDetailsTest@2bbf180e]" name="clickViewMore" class="com.bikes.testCases.BikeDetailsTest"/>
-        <method signature="BikeDetailsTest.displayUpcomingBikes()[pri:0, instance:com.bikes.testCases.BikeDetailsTest@2bbf180e]" name="displayUpcomingBikes" class="com.bikes.testCases.BikeDetailsTest"/>
-        <method signature="BikeDetailsTest.invokedriver()[pri:0, instance:com.bikes.testCases.BikeDetailsTest@2bbf180e]" name="invokedriver" class="com.bikes.testCases.BikeDetailsTest"/>
-        <method signature="BikeDetailsTest.selectHondaBikes()[pri:2, instance:com.bikes.testCases.BikeDetailsTest@2bbf180e]" name="selectHondaBikes" class="com.bikes.testCases.BikeDetailsTest"/>
-        <method signature="LoginTest.clickLogin1()[pri:0, instance:com.bikes.testCases.LoginTest@163e4e87]" name="clickLogin1" class="com.bikes.testCases.LoginTest"/>
-        <method signature="LoginTest.clickLogin2()[pri:1, instance:com.bikes.testCases.LoginTest@163e4e87]" name="clickLogin2" class="com.bikes.testCases.LoginTest"/>
-        <method signature="UsedCarsTest.selectChennai()[pri:0, instance:com.bikes.testCases.UsedCarsTest@56de5251]" name="selectChennai" class="com.bikes.testCases.UsedCarsTest"/>
-        <method signature="UsedCarsTest.getPopularModels()[pri:0, instance:com.bikes.testCases.UsedCarsTest@56de5251]" name="getPopularModels" class="com.bikes.testCases.UsedCarsTest"/>
+        <method signature="BikeDetailsTest.clickUpComingBikes()[pri:1, instance:com.bikes.testCases.BikeDetailsTest@56de5251]" name="clickUpComingBikes" class="com.bikes.testCases.BikeDetailsTest"/>
+        <method signature="BikeDetailsTest.clickViewMore()[pri:3, instance:com.bikes.testCases.BikeDetailsTest@56de5251]" name="clickViewMore" class="com.bikes.testCases.BikeDetailsTest"/>
+        <method signature="BikeDetailsTest.displayUpcomingBikes()[pri:0, instance:com.bikes.testCases.BikeDetailsTest@56de5251]" name="displayUpcomingBikes" class="com.bikes.testCases.BikeDetailsTest"/>
+        <method signature="BikeDetailsTest.invokedriver()[pri:0, instance:com.bikes.testCases.BikeDetailsTest@56de5251]" name="invokedriver" class="com.bikes.testCases.BikeDetailsTest"/>
+        <method signature="BikeDetailsTest.selectHondaBikes()[pri:2, instance:com.bikes.testCases.BikeDetailsTest@56de5251]" name="selectHondaBikes" class="com.bikes.testCases.BikeDetailsTest"/>
+        <method signature="LoginTest.clickLogin1()[pri:0, instance:com.bikes.testCases.LoginTest@419c5f1a]" name="clickLogin1" class="com.bikes.testCases.LoginTest"/>
+        <method signature="LoginTest.clickLogin2()[pri:1, instance:com.bikes.testCases.LoginTest@419c5f1a]" name="clickLogin2" class="com.bikes.testCases.LoginTest"/>
+        <method signature="UsedCarsTest.selectChennai()[pri:0, instance:com.bikes.testCases.UsedCarsTest@12b0404f]" name="selectChennai" class="com.bikes.testCases.UsedCarsTest"/>
+        <method signature="UsedCarsTest.getPopularModels()[pri:0, instance:com.bikes.testCases.UsedCarsTest@12b0404f]" name="getPopularModels" class="com.bikes.testCases.UsedCarsTest"/>
       </group> <!-- Smoke Test -->
     </groups>
-    <test started-at="2021-06-01T13:19:30Z" name="Command line test" finished-at="2021-06-01T13:21:45Z" duration-ms="135006">
+    <test started-at="2021-06-02T08:52:27Z" name="Command line test" finished-at="2021-06-02T08:54:25Z" duration-ms="117720">
       <class name="com.bikes.testCases.BikeDetailsTest">
-        <test-method signature="invokedriver()[pri:0, instance:com.bikes.testCases.BikeDetailsTest@2bbf180e]" started-at="2021-06-01T13:19:30Z" name="invokedriver" finished-at="2021-06-01T13:19:58Z" duration-ms="27747" status="PASS">
+        <test-method signature="invokedriver()[pri:0, instance:com.bikes.testCases.BikeDetailsTest@56de5251]" started-at="2021-06-02T08:52:27Z" name="invokedriver" finished-at="2021-06-02T08:52:59Z" duration-ms="32099" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invokedriver -->
       </class> <!-- com.bikes.testCases.BikeDetailsTest -->
       <class name="com.bikes.testCases.UsedCarsTest">
-        <test-method signature="selectChennai()[pri:0, instance:com.bikes.testCases.UsedCarsTest@56de5251]" started-at="2021-06-01T13:20:49Z" name="selectChennai" finished-at="2021-06-01T13:21:45Z" duration-ms="56327" status="PASS">
+        <test-method signature="selectChennai()[pri:0, instance:com.bikes.testCases.UsedCarsTest@12b0404f]" started-at="2021-06-02T08:53:44Z" name="selectChennai" finished-at="2021-06-02T08:54:25Z" duration-ms="40363" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectChennai -->
       </class> <!-- com.bikes.testCases.UsedCarsTest -->
       <class name="com.bikes.testCases.LoginTest">
-        <test-method signature="clickLogin1()[pri:0, instance:com.bikes.testCases.LoginTest@163e4e87]" started-at="2021-06-01T13:19:58Z" name="clickLogin1" finished-at="2021-06-01T13:20:49Z" duration-ms="50910" status="PASS">
+        <test-method signature="clickLogin1()[pri:0, instance:com.bikes.testCases.LoginTest@419c5f1a]" started-at="2021-06-02T08:52:59Z" name="clickLogin1" finished-at="2021-06-02T08:53:44Z" duration-ms="45231" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickLogin1 -->

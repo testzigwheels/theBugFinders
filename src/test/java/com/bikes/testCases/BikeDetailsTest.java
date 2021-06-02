@@ -25,7 +25,7 @@ public class BikeDetailsTest extends TestBase {
     public void invokedriver() {
 		logger = report.createTest("ZigWheels Upcoming Bikes in India - Extracting Honda models");
           setupDriver();
-          waitFor(3);
+          waitFor(5);
     }
     
     /*************************************************************************************

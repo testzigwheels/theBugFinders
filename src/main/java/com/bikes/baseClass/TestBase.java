@@ -64,9 +64,12 @@ public class TestBase {
 		Scanner scan = new Scanner(System.in);
 		String browser = scan.next();
 		System.out.println(
-		"-------------------------------------------------------------------------------------------------\n");
-	*/
+				"-------------------------------------------------------------------------------------------------\n");
+				*/
+		@SuppressWarnings("resource")
 		String browser=prop.getProperty("Browser");
+		
+		
 		if (browser.equalsIgnoreCase("chrome")) {
 			// To launch in Chrome browser
 			System.setProperty("webdriver.chrome.driver",

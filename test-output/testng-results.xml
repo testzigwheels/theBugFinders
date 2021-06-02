@@ -1,88 +1,159 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="0" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-06-01T09:09:39Z" name="ZigWheelsTestSuite" finished-at="2021-06-01T09:12:09Z" duration-ms="150266">
+  <suite started-at="2021-06-02T10:18:39Z" name="Default suite" finished-at="2021-06-02T10:21:01Z" duration-ms="141372">
     <groups>
-      <group name="Regression Test">
-        <method signature="BikeDetailsTest.verifyHondaPage()[pri:0, instance:com.bikes.testCases.BikeDetailsTest@49c6c24f]" name="verifyHondaPage" class="com.bikes.testCases.BikeDetailsTest"/>
-        <method signature="UsedCarsTest.verifyChennai()[pri:0, instance:com.bikes.testCases.UsedCarsTest@9ef8eb7]" name="verifyChennai" class="com.bikes.testCases.UsedCarsTest"/>
-      </group> <!-- Regression Test -->
       <group name="Smoke Test">
-        <method signature="BikeDetailsTest.clickUpComingBikes()[pri:1, instance:com.bikes.testCases.BikeDetailsTest@49c6c24f]" name="clickUpComingBikes" class="com.bikes.testCases.BikeDetailsTest"/>
-        <method signature="BikeDetailsTest.clickViewMore()[pri:3, instance:com.bikes.testCases.BikeDetailsTest@49c6c24f]" name="clickViewMore" class="com.bikes.testCases.BikeDetailsTest"/>
-        <method signature="BikeDetailsTest.displayUpcomingBikes()[pri:0, instance:com.bikes.testCases.BikeDetailsTest@49c6c24f]" name="displayUpcomingBikes" class="com.bikes.testCases.BikeDetailsTest"/>
-        <method signature="BikeDetailsTest.invokedriver()[pri:0, instance:com.bikes.testCases.BikeDetailsTest@49c6c24f]" name="invokedriver" class="com.bikes.testCases.BikeDetailsTest"/>
-        <method signature="BikeDetailsTest.selectHondaBikes()[pri:2, instance:com.bikes.testCases.BikeDetailsTest@49c6c24f]" name="selectHondaBikes" class="com.bikes.testCases.BikeDetailsTest"/>
-        <method signature="LoginTest.clickLogin1()[pri:0, instance:com.bikes.testCases.LoginTest@6ad59d92]" name="clickLogin1" class="com.bikes.testCases.LoginTest"/>
-        <method signature="LoginTest.clickLogin2()[pri:1, instance:com.bikes.testCases.LoginTest@6ad59d92]" name="clickLogin2" class="com.bikes.testCases.LoginTest"/>
-        <method signature="UsedCarsTest.selectChennai()[pri:0, instance:com.bikes.testCases.UsedCarsTest@9ef8eb7]" name="selectChennai" class="com.bikes.testCases.UsedCarsTest"/>
-        <method signature="UsedCarsTest.getPopularModels()[pri:0, instance:com.bikes.testCases.UsedCarsTest@9ef8eb7]" name="getPopularModels" class="com.bikes.testCases.UsedCarsTest"/>
+        <method signature="LoginTest.clickLogin1()[pri:0, instance:com.bikes.testCases.LoginTest@45d84a20]" name="clickLogin1" class="com.bikes.testCases.LoginTest"/>
+        <method signature="LoginTest.clickLogin2()[pri:1, instance:com.bikes.testCases.LoginTest@45d84a20]" name="clickLogin2" class="com.bikes.testCases.LoginTest"/>
       </group> <!-- Smoke Test -->
     </groups>
-    <test started-at="2021-06-01T09:09:39Z" name="BikeDetailsTest" finished-at="2021-06-01T09:10:18Z" duration-ms="39364">
-      <class name="com.bikes.testCases.BikeDetailsTest">
-        <test-method signature="invokedriver()[pri:0, instance:com.bikes.testCases.BikeDetailsTest@49c6c24f]" started-at="2021-06-01T09:09:39Z" name="invokedriver" finished-at="2021-06-01T09:10:05Z" duration-ms="25489" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- invokedriver -->
-        <test-method signature="clickUpComingBikes()[pri:1, instance:com.bikes.testCases.BikeDetailsTest@49c6c24f]" started-at="2021-06-01T09:10:05Z" name="clickUpComingBikes" finished-at="2021-06-01T09:10:09Z" duration-ms="3992" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- clickUpComingBikes -->
-        <test-method signature="selectHondaBikes()[pri:2, instance:com.bikes.testCases.BikeDetailsTest@49c6c24f]" started-at="2021-06-01T09:10:09Z" name="selectHondaBikes" finished-at="2021-06-01T09:10:12Z" duration-ms="3795" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- selectHondaBikes -->
-        <test-method signature="clickViewMore()[pri:3, instance:com.bikes.testCases.BikeDetailsTest@49c6c24f]" started-at="2021-06-01T09:10:12Z" name="clickViewMore" finished-at="2021-06-01T09:10:16Z" duration-ms="3285" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- clickViewMore -->
-        <test-method signature="displayUpcomingBikes()[pri:0, instance:com.bikes.testCases.BikeDetailsTest@49c6c24f]" started-at="2021-06-01T09:10:16Z" name="displayUpcomingBikes" finished-at="2021-06-01T09:10:17Z" depends-on-methods="com.bikes.testCases.BikeDetailsTest.clickViewMore" duration-ms="1536" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- displayUpcomingBikes -->
-        <test-method signature="verifyHondaPage()[pri:0, instance:com.bikes.testCases.BikeDetailsTest@49c6c24f]" started-at="2021-06-01T09:10:17Z" name="verifyHondaPage" finished-at="2021-06-01T09:10:17Z" depends-on-methods="com.bikes.testCases.BikeDetailsTest.displayUpcomingBikes" duration-ms="12" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyHondaPage -->
-        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:com.bikes.testCases.BikeDetailsTest@49c6c24f]" started-at="2021-06-01T09:10:17Z" name="quitBrowser" finished-at="2021-06-01T09:10:18Z" duration-ms="1220" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quitBrowser -->
-      </class> <!-- com.bikes.testCases.BikeDetailsTest -->
-    </test> <!-- BikeDetailsTest -->
-    <test started-at="2021-06-01T09:10:19Z" name="LoginTest" finished-at="2021-06-01T09:11:47Z" duration-ms="88031">
+    <test started-at="2021-06-02T10:18:39Z" name="Default test" finished-at="2021-06-02T10:21:01Z" duration-ms="141372">
       <class name="com.bikes.testCases.LoginTest">
-        <test-method signature="clickLogin1()[pri:0, instance:com.bikes.testCases.LoginTest@6ad59d92]" started-at="2021-06-01T09:10:19Z" name="clickLogin1" finished-at="2021-06-01T09:11:03Z" duration-ms="44275" status="PASS">
+        <test-method signature="clickLogin1()[pri:0, instance:com.bikes.testCases.LoginTest@45d84a20]" started-at="2021-06-02T10:18:39Z" name="clickLogin1" finished-at="2021-06-02T10:20:02Z" duration-ms="82048" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=91.0.4472.77)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-0QEPCK00', ip: '192.168.0.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.77, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\91940\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51333}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0f6c1ddb39b73da57511d286131a7bf4
+*** Element info: {Using=id, value=forum_login_title_lg}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=91.0.4472.77)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-0QEPCK00', ip: '192.168.0.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.77, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\91940\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51333}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0f6c1ddb39b73da57511d286131a7bf4
+*** Element info: {Using=id, value=forum_login_title_lg}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+at org.openqa.selenium.By$ById.findElement(By.java:188)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at com.bikes.pages.LaunchPage.clickLogin(LaunchPage.java:59)
+at com.bikes.testCases.LoginTest.clickLogin1(LoginTest.java:26)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickLogin1 -->
-        <test-method signature="clickLogin2()[pri:1, instance:com.bikes.testCases.LoginTest@6ad59d92]" started-at="2021-06-01T09:11:03Z" name="clickLogin2" finished-at="2021-06-01T09:11:47Z" duration-ms="43746" status="PASS">
+        <test-method signature="clickLogin2()[pri:1, instance:com.bikes.testCases.LoginTest@45d84a20]" started-at="2021-06-02T10:20:02Z" name="clickLogin2" finished-at="2021-06-02T10:21:01Z" duration-ms="59286" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=91.0.4472.77)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-0QEPCK00', ip: '192.168.0.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.77, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\91940\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62141}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b196e0842ebffb026f905cc62643bd34
+*** Element info: {Using=id, value=forum_login_title_lg}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=91.0.4472.77)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-0QEPCK00', ip: '192.168.0.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.77, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\91940\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62141}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b196e0842ebffb026f905cc62643bd34
+*** Element info: {Using=id, value=forum_login_title_lg}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+at org.openqa.selenium.By$ById.findElement(By.java:188)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at com.bikes.pages.LaunchPage.clickLogin(LaunchPage.java:59)
+at com.bikes.testCases.LoginTest.clickLogin2(LoginTest.java:46)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickLogin2 -->
       </class> <!-- com.bikes.testCases.LoginTest -->
-    </test> <!-- LoginTest -->
-    <test started-at="2021-06-01T09:11:47Z" name="UsedCarsTest" finished-at="2021-06-01T09:12:09Z" duration-ms="22821">
-      <class name="com.bikes.testCases.UsedCarsTest">
-        <test-method signature="selectChennai()[pri:0, instance:com.bikes.testCases.UsedCarsTest@9ef8eb7]" started-at="2021-06-01T09:11:47Z" name="selectChennai" finished-at="2021-06-01T09:12:07Z" duration-ms="20188" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- selectChennai -->
-        <test-method signature="getPopularModels()[pri:0, instance:com.bikes.testCases.UsedCarsTest@9ef8eb7]" started-at="2021-06-01T09:12:07Z" name="getPopularModels" finished-at="2021-06-01T09:12:08Z" depends-on-methods="com.bikes.testCases.UsedCarsTest.selectChennai" duration-ms="1721" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getPopularModels -->
-        <test-method signature="verifyChennai()[pri:0, instance:com.bikes.testCases.UsedCarsTest@9ef8eb7]" started-at="2021-06-01T09:12:08Z" name="verifyChennai" finished-at="2021-06-01T09:12:09Z" depends-on-methods="com.bikes.testCases.UsedCarsTest.getPopularModels" duration-ms="34" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyChennai -->
-        <test-method is-config="true" signature="browserQuit()[pri:0, instance:com.bikes.testCases.UsedCarsTest@9ef8eb7]" started-at="2021-06-01T09:12:09Z" name="browserQuit" finished-at="2021-06-01T09:12:09Z" duration-ms="871" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserQuit -->
-      </class> <!-- com.bikes.testCases.UsedCarsTest -->
-    </test> <!-- UsedCarsTest -->
-  </suite> <!-- ZigWheelsTestSuite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

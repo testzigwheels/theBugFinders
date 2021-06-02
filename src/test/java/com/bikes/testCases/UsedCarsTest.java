@@ -22,7 +22,7 @@ public class UsedCarsTest extends TestBase {
 	public void selectChennai() {
 	logger = report.createTest("ZigWheels Used Cars in Chennai - Extracting popular models");
 		setupDriver();
-		waitFor(2);
+		waitFor(4);
 	hondaDetails.selectChennai();
 		
 	}
