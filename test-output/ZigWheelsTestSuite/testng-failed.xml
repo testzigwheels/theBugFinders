@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [ZigWheelsTestSuite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" parallel="tests" name="LoginTest(failed)">
+  <test thread-count="5" parallel="tests" name="BikeDetailsTest(failed)">
     <groups>
       <run>
         <include name="Smoke Test"/>
@@ -9,11 +9,13 @@
       </run>
     </groups>
     <classes>
-      <class name="com.bikes.testCases.LoginTest">
+      <class name="com.bikes.testCases.BikeDetailsTest">
         <methods>
-          <include name="clickLogin1"/>
+          <include name="clickViewMore"/>
+          <include name="displayUpcomingBikes"/>
+          <include name="quitBrowser"/>
         </methods>
-      </class> <!-- com.bikes.testCases.LoginTest -->
+      </class> <!-- com.bikes.testCases.BikeDetailsTest -->
     </classes>
-  </test> <!-- LoginTest(failed) -->
+  </test> <!-- BikeDetailsTest(failed) -->
 </suite> <!-- Failed suite [ZigWheelsTestSuite] -->

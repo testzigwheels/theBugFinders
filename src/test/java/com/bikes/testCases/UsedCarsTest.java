@@ -18,11 +18,11 @@ public class UsedCarsTest extends TestBase {
      * This method is used to call the 'selectChennai' method
      *************************************************************************************/
 
-	@Test(groups = "Smoke Test")
+	@Test(priority=8,groups = "Smoke Test")
 	public void selectChennai() {
 	logger = report.createTest("ZigWheels Used Cars in Chennai - Extracting popular models");
 		setupDriver();
-		waitFor(4);
+		waitFor(3);
 	hondaDetails.selectChennai();
 		
 	}
@@ -31,7 +31,7 @@ public class UsedCarsTest extends TestBase {
      * This method is used to call the 'getPopularModels' method
      *************************************************************************************/
 
-	@Test(dependsOnMethods = "selectChennai", groups = "Smoke Test")
+	@Test(priority=9,dependsOnMethods = "selectChennai", groups = "Smoke Test")
 	public void getPopularModels() {
 		
 		
@@ -42,7 +42,7 @@ public class UsedCarsTest extends TestBase {
 	 * This method is used to verify the UsedCars page
 	 ***************************************************************************************/
 	
-	@Test(dependsOnMethods = "getPopularModels", groups = "Regression Test")
+	@Test(priority=10,dependsOnMethods = "getPopularModels", groups = "Regression Test")
 	public void verifyChennai() {
 		
 		carModels.verifyPlace();

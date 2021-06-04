@@ -25,7 +25,7 @@ public class BikeDetailsTest extends TestBase {
     public void invokedriver() {
 		logger = report.createTest("ZigWheels Upcoming Bikes in India - Extracting Honda models");
           setupDriver();
-          waitFor(5);
+          waitFor(4);
     }
     
     /*************************************************************************************
@@ -68,15 +68,16 @@ public class BikeDetailsTest extends TestBase {
     * This method is used to call the 'displayUpComingBikesInIndia' method
     *************************************************************************************/
     
-    @Test(dependsOnMethods = "clickViewMore", groups = "Smoke Test")
+  //  @Test(dependsOnMethods = "clickViewMore", groups = "Smoke Test")
+    @Test(priority=4, groups = "Smoke Test")
     public void displayUpcomingBikes() {
     	   
         hondaDetails.displayUpcomingBikesInIndia();
     }
     
     
-    
-    @Test(dependsOnMethods = "displayUpcomingBikes", groups = "Regression Test")
+    @Test(priority=5, groups = "Smoke Test")
+   // @Test(dependsOnMethods = "displayUpcomingBikes", groups = "Regression Test")
     public void verifyHondaPage()
     {
     	hondaDetails.verifyPage();

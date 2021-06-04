@@ -1,43 +1,83 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-06-02T08:52:27Z" name="Command line suite" finished-at="2021-06-02T08:54:25Z" duration-ms="117720">
+  <suite started-at="2021-06-03T13:13:17Z" name="Command line suite" finished-at="2021-06-03T13:19:01Z" duration-ms="343795">
     <groups>
       <group name="Regression Test">
-        <method signature="BikeDetailsTest.verifyHondaPage()[pri:0, instance:com.bikes.testCases.BikeDetailsTest@56de5251]" name="verifyHondaPage" class="com.bikes.testCases.BikeDetailsTest"/>
-        <method signature="UsedCarsTest.verifyChennai()[pri:0, instance:com.bikes.testCases.UsedCarsTest@12b0404f]" name="verifyChennai" class="com.bikes.testCases.UsedCarsTest"/>
+        <method signature="UsedCarsTest.verifyChennai()[pri:10, instance:com.bikes.testCases.UsedCarsTest@12b0404f]" name="verifyChennai" class="com.bikes.testCases.UsedCarsTest"/>
       </group> <!-- Regression Test -->
       <group name="Smoke Test">
+        <method signature="UsedCarsTest.selectChennai()[pri:8, instance:com.bikes.testCases.UsedCarsTest@12b0404f]" name="selectChennai" class="com.bikes.testCases.UsedCarsTest"/>
+        <method signature="UsedCarsTest.getPopularModels()[pri:9, instance:com.bikes.testCases.UsedCarsTest@12b0404f]" name="getPopularModels" class="com.bikes.testCases.UsedCarsTest"/>
         <method signature="BikeDetailsTest.clickUpComingBikes()[pri:1, instance:com.bikes.testCases.BikeDetailsTest@56de5251]" name="clickUpComingBikes" class="com.bikes.testCases.BikeDetailsTest"/>
         <method signature="BikeDetailsTest.clickViewMore()[pri:3, instance:com.bikes.testCases.BikeDetailsTest@56de5251]" name="clickViewMore" class="com.bikes.testCases.BikeDetailsTest"/>
-        <method signature="BikeDetailsTest.displayUpcomingBikes()[pri:0, instance:com.bikes.testCases.BikeDetailsTest@56de5251]" name="displayUpcomingBikes" class="com.bikes.testCases.BikeDetailsTest"/>
+        <method signature="BikeDetailsTest.displayUpcomingBikes()[pri:4, instance:com.bikes.testCases.BikeDetailsTest@56de5251]" name="displayUpcomingBikes" class="com.bikes.testCases.BikeDetailsTest"/>
         <method signature="BikeDetailsTest.invokedriver()[pri:0, instance:com.bikes.testCases.BikeDetailsTest@56de5251]" name="invokedriver" class="com.bikes.testCases.BikeDetailsTest"/>
         <method signature="BikeDetailsTest.selectHondaBikes()[pri:2, instance:com.bikes.testCases.BikeDetailsTest@56de5251]" name="selectHondaBikes" class="com.bikes.testCases.BikeDetailsTest"/>
-        <method signature="LoginTest.clickLogin1()[pri:0, instance:com.bikes.testCases.LoginTest@419c5f1a]" name="clickLogin1" class="com.bikes.testCases.LoginTest"/>
-        <method signature="LoginTest.clickLogin2()[pri:1, instance:com.bikes.testCases.LoginTest@419c5f1a]" name="clickLogin2" class="com.bikes.testCases.LoginTest"/>
-        <method signature="UsedCarsTest.selectChennai()[pri:0, instance:com.bikes.testCases.UsedCarsTest@12b0404f]" name="selectChennai" class="com.bikes.testCases.UsedCarsTest"/>
-        <method signature="UsedCarsTest.getPopularModels()[pri:0, instance:com.bikes.testCases.UsedCarsTest@12b0404f]" name="getPopularModels" class="com.bikes.testCases.UsedCarsTest"/>
+        <method signature="BikeDetailsTest.verifyHondaPage()[pri:5, instance:com.bikes.testCases.BikeDetailsTest@56de5251]" name="verifyHondaPage" class="com.bikes.testCases.BikeDetailsTest"/>
+        <method signature="LoginTest.clickLogin1()[pri:6, instance:com.bikes.testCases.LoginTest@419c5f1a]" name="clickLogin1" class="com.bikes.testCases.LoginTest"/>
+        <method signature="LoginTest.clickLogin2()[pri:7, instance:com.bikes.testCases.LoginTest@419c5f1a]" name="clickLogin2" class="com.bikes.testCases.LoginTest"/>
       </group> <!-- Smoke Test -->
     </groups>
-    <test started-at="2021-06-02T08:52:27Z" name="Command line test" finished-at="2021-06-02T08:54:25Z" duration-ms="117720">
+    <test started-at="2021-06-03T13:13:17Z" name="Command line test" finished-at="2021-06-03T13:19:01Z" duration-ms="343795">
       <class name="com.bikes.testCases.BikeDetailsTest">
-        <test-method signature="invokedriver()[pri:0, instance:com.bikes.testCases.BikeDetailsTest@56de5251]" started-at="2021-06-02T08:52:27Z" name="invokedriver" finished-at="2021-06-02T08:52:59Z" duration-ms="32099" status="PASS">
+        <test-method signature="invokedriver()[pri:0, instance:com.bikes.testCases.BikeDetailsTest@56de5251]" started-at="2021-06-03T13:13:17Z" name="invokedriver" finished-at="2021-06-03T13:13:42Z" duration-ms="24927" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invokedriver -->
+        <test-method signature="clickUpComingBikes()[pri:1, instance:com.bikes.testCases.BikeDetailsTest@56de5251]" started-at="2021-06-03T13:13:42Z" name="clickUpComingBikes" finished-at="2021-06-03T13:16:26Z" duration-ms="164703" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickUpComingBikes -->
+        <test-method signature="selectHondaBikes()[pri:2, instance:com.bikes.testCases.BikeDetailsTest@56de5251]" started-at="2021-06-03T13:16:26Z" name="selectHondaBikes" finished-at="2021-06-03T13:16:30Z" duration-ms="3652" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectHondaBikes -->
+        <test-method signature="clickViewMore()[pri:3, instance:com.bikes.testCases.BikeDetailsTest@56de5251]" started-at="2021-06-03T13:16:30Z" name="clickViewMore" finished-at="2021-06-03T13:16:33Z" duration-ms="3305" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickViewMore -->
+        <test-method signature="displayUpcomingBikes()[pri:4, instance:com.bikes.testCases.BikeDetailsTest@56de5251]" started-at="2021-06-03T13:16:33Z" name="displayUpcomingBikes" finished-at="2021-06-03T13:16:35Z" duration-ms="1502" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- displayUpcomingBikes -->
+        <test-method signature="verifyHondaPage()[pri:5, instance:com.bikes.testCases.BikeDetailsTest@56de5251]" started-at="2021-06-03T13:16:35Z" name="verifyHondaPage" finished-at="2021-06-03T13:16:35Z" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHondaPage -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:com.bikes.testCases.BikeDetailsTest@56de5251]" started-at="2021-06-03T13:16:35Z" name="quitBrowser" finished-at="2021-06-03T13:16:36Z" duration-ms="1098" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
       </class> <!-- com.bikes.testCases.BikeDetailsTest -->
       <class name="com.bikes.testCases.UsedCarsTest">
-        <test-method signature="selectChennai()[pri:0, instance:com.bikes.testCases.UsedCarsTest@12b0404f]" started-at="2021-06-02T08:53:44Z" name="selectChennai" finished-at="2021-06-02T08:54:25Z" duration-ms="40363" status="PASS">
+        <test-method signature="selectChennai()[pri:8, instance:com.bikes.testCases.UsedCarsTest@12b0404f]" started-at="2021-06-03T13:18:18Z" name="selectChennai" finished-at="2021-06-03T13:18:59Z" duration-ms="41340" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectChennai -->
+        <test-method signature="getPopularModels()[pri:9, instance:com.bikes.testCases.UsedCarsTest@12b0404f]" started-at="2021-06-03T13:18:59Z" name="getPopularModels" finished-at="2021-06-03T13:19:00Z" depends-on-methods="com.bikes.testCases.UsedCarsTest.selectChennai" duration-ms="331" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPopularModels -->
+        <test-method signature="verifyChennai()[pri:10, instance:com.bikes.testCases.UsedCarsTest@12b0404f]" started-at="2021-06-03T13:19:00Z" name="verifyChennai" finished-at="2021-06-03T13:19:00Z" depends-on-methods="com.bikes.testCases.UsedCarsTest.getPopularModels" duration-ms="28" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyChennai -->
+        <test-method is-config="true" signature="browserQuit()[pri:0, instance:com.bikes.testCases.UsedCarsTest@12b0404f]" started-at="2021-06-03T13:19:00Z" name="browserQuit" finished-at="2021-06-03T13:19:01Z" duration-ms="877" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserQuit -->
       </class> <!-- com.bikes.testCases.UsedCarsTest -->
       <class name="com.bikes.testCases.LoginTest">
-        <test-method signature="clickLogin1()[pri:0, instance:com.bikes.testCases.LoginTest@419c5f1a]" started-at="2021-06-02T08:52:59Z" name="clickLogin1" finished-at="2021-06-02T08:53:44Z" duration-ms="45231" status="PASS">
+        <test-method signature="clickLogin1()[pri:6, instance:com.bikes.testCases.LoginTest@419c5f1a]" started-at="2021-06-03T13:16:36Z" name="clickLogin1" finished-at="2021-06-03T13:17:23Z" duration-ms="47457" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickLogin1 -->
+        <test-method signature="clickLogin2()[pri:7, instance:com.bikes.testCases.LoginTest@419c5f1a]" started-at="2021-06-03T13:17:23Z" name="clickLogin2" finished-at="2021-06-03T13:18:18Z" duration-ms="54538" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickLogin2 -->
       </class> <!-- com.bikes.testCases.LoginTest -->
     </test> <!-- Command line test -->
   </suite> <!-- Command line suite -->

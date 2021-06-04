@@ -17,7 +17,7 @@ public class LoginTest extends TestBase{
      * while giving invalid password we are getting 'captcha' so we are putting this method under regression  
      *************************************************************************************/
 	
-	@Test(priority = 1, groups = "Smoke Test")
+	@Test(priority = 6, groups = "Smoke Test")
 	public void clickLogin1() {
 		logger=report.createTest("ZigWheels Login Test by providing invalid password");
 		setupDriver();
@@ -37,7 +37,7 @@ public class LoginTest extends TestBase{
      * This method is used to call the 'clickLogin' and 'enterLoginDetail1' methods
      *************************************************************************************/
 	
-	  @Test(priority = 0, groups = "Smoke Test")
+	  @Test(priority = 7, groups = "Smoke Test")
 	public void clickLogin2() {
 		logger=report.createTest("ZigWheels Login Test by providing invalid email");
 		setupDriver();

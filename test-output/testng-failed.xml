@@ -3,12 +3,16 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.bikes.testCases.LoginTest">
+      <class name="com.bikes.testCases.BikeDetailsTest">
         <methods>
-          <include name="clickLogin2"/>
-          <include name="clickLogin1"/>
+          <include name="clickViewMore"/>
+          <include name="verifyHondaPage"/>
+          <include name="selectHondaBikes"/>
+          <include name="clickUpComingBikes"/>
+          <include name="displayUpcomingBikes"/>
+          <include name="quitBrowser"/>
         </methods>
-      </class> <!-- com.bikes.testCases.LoginTest -->
+      </class> <!-- com.bikes.testCases.BikeDetailsTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

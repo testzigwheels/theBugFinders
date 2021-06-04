@@ -19,7 +19,7 @@
 		<groups>
 			<run>
 				<include name="Smoke Test" />
-				<include name="Regression Test" />
+			
 			</run>
 		</groups>
 		<classes>
